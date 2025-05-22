@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reusable Code Block</title>
+    <!-- component logic -->
+    <script src="code-block.js" defer></script>
+</head>
+<body style="margin: 0; font-family: sans-serif; background: #121212; color: white;">
+
+    <h1 style="text-align: center; margin-top: 40px;">Reusable Code Blocks</h1>
+
+    <code-block language="css" width="600px" height="auto">
+        .code-container {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        }
+    </code-block>
+
+    <code-block language="python" width="500px">
+        def greet(name):
+        return f"Hello, {name}!
+    </code-block>
+
+    <code-block language="javascript" width="600px" height="auto">
+        function sum(a, b) {
+        return a + b;
+        }
+        console.log(sum(3, 4));
+    </code-block>
+    <code-block language="plaintext" width="600px" height="159px">
+        This is a simple plain text file.
+
+        It has no code, just lines of raw text.
+        Maybe a poem? Or a README? Either way, it works!
+    </code-block>
+</body>
+</html>
